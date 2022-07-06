@@ -1,0 +1,17 @@
+.usersign {
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.main-navright {
+    display: inline-block;
+    float: right;
+}
+
+.profileList {
+    position: absolute;
+    width: 160px;
+    margin-top: 0px;
+    list-style: none;
+    list-style-type: none;
+}
