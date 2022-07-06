@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
 import "./Userlogin.css";
 
@@ -23,13 +24,17 @@ const Userlogin = () => {
               <ul className="profileList">
                 <li>item 1</li>
                 <li>item 2</li>
-                <li>item 3</li>
+                <li>
+                  <Link to="setting/">setting</Link>
+                </li>
                 <li onClick={handleSignOut}>logout</li>
               </ul>
             </Dropdown>
           </div>
         ) : (
-          <a href="https://intra.42.fr">login</a>
+          <a className="sign-link" href="https://intra.42.fr">
+            login
+          </a>
         )}
       </span>
     </div>

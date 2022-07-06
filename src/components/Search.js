@@ -12,7 +12,7 @@ function Search() {
   };
   return (
     <div className="search-bar">
-      <form>
+      <form className="search-form">
         <input
           className="input-bar"
           placeholder="SEARCH"
@@ -20,7 +20,12 @@ function Search() {
           value={search}
           onChange={onChange}
         />
-        <input type="submit" value={"O"} onClick={onClick}></input>
+        <input
+          className="submit-button"
+          type="submit"
+          value={"O"}
+          onClick={onClick}
+        ></input>
       </form>
     </div>
   );

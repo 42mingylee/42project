@@ -8,6 +8,10 @@
     float: right;
 }
 
+.sign-link {
+    font-size: 30px;
+}
+
 .profileList {
     position: absolute;
     width: 160px;

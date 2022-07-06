@@ -1,13 +1,28 @@
 .search-bar {
-    background-color: red;
     width: 100%;
     display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    justify-content: center;
+    align-items: center;
 }
 
 .input-bar {
-    /* padding: 20px; */
+    position: relative;
     padding-left: 5px;
     width: 300px;
     height: 30px;
     font-size: 28px;
+}
+
+.submit-button {
+    position: absolute;
+    padding: 15px;
+    margin-left: 10px;
+    top: 8px;
+    font-size: 40px;
 }
